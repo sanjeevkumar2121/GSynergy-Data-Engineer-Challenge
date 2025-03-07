@@ -1,0 +1,21 @@
+TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,TABLE_TYPE
+GSynergy_Lakehouse,dbo,dim_fscl_date_staged,BASE TABLE
+GSynergy_Lakehouse,dbo,dim_fscl_quarter_staged,BASE TABLE
+GSynergy_Lakehouse,dbo,dim_fscl_year_staged,BASE TABLE
+GSynergy_Lakehouse,dbo,dim_fscl_month_staged,BASE TABLE
+GSynergy_Lakehouse,dbo,fact_staged,BASE TABLE
+GSynergy_Lakehouse,dbo,dim_fscl_week_staged,BASE TABLE
+GSynergy_Lakehouse,sys,sys_dw_manifest_files,VIEW
+GSynergy_Lakehouse,dbo,mview_weekly_sales,BASE TABLE
+GSynergy_Lakehouse,sys,sys_dw_physical_table_forks,VIEW
+GSynergy_Lakehouse,sys,sys_dw_physical_tables,VIEW
+GSynergy_Lakehouse,sys,sys_dw_checkpoint_files,VIEW
+GSynergy_Lakehouse,sys,managed_delta_table_log_files,VIEW
+GSynergy_Lakehouse,sys,managed_delta_table_forks,VIEW
+GSynergy_Lakehouse,sys,managed_delta_tables,VIEW
+GSynergy_Lakehouse,sys,managed_delta_table_checkpoints,VIEW
+GSynergy_Lakehouse,sys,sys_dw_schemas,VIEW
+GSynergy_Lakehouse,queryinsights,exec_requests_history,VIEW
+GSynergy_Lakehouse,queryinsights,long_running_queries,VIEW
+GSynergy_Lakehouse,queryinsights,frequently_run_queries,VIEW
+GSynergy_Lakehouse,queryinsights,exec_sessions_history,VIEW
