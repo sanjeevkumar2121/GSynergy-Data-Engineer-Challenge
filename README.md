@@ -17,6 +17,7 @@ This project builds an end-to-end **ELT pipeline** in Microsoft Fabric Lakehouse
 
 ## 📂 Project Structure  
 ```bash
+📂 ER Diagram/             # ER Diagram PNG and Code
 📂 notebooks/             # PySpark scripts for ELT
 📂 pipeline/              # Pipeline configurations
 📂 SQL/                  # Schema and metadata
